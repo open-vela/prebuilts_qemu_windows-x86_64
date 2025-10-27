@@ -66,13 +66,13 @@ while test $# -gt 0; do
       echo $exec_prefix
       ;;
     --version)
-      echo 10.45
+      echo 10.47
       ;;
     --cflags)
       if test ${prefix}/include != /usr/include ; then
         includes=-I${prefix}/include
       fi
-      echo $includes 
+      echo $includes -DPCRE2_STATIC
       ;;
     --cflags-posix)
       if test yes = yes ; then
