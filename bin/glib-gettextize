@@ -43,15 +43,15 @@ version=2.84.0
 try_ln_s=:
 
 # Directory where the sources are stored.
-prefix=/home/shanmin/qemu-build/out/install/x86_64-w64-mingw32
+prefix=/home/shanmin/vela/vela-qemu/out/install/x86_64-w64-mingw32
 case `uname` in
 MINGW32*)
     prefix="`dirname $0`/.."
     ;;
 esac
 
-datarootdir=/home/shanmin/qemu-build/out/install/x86_64-w64-mingw32/share
-datadir=/home/shanmin/qemu-build/out/install/x86_64-w64-mingw32/share
+datarootdir=/home/shanmin/vela/vela-qemu/out/install/x86_64-w64-mingw32/share
+datadir=/home/shanmin/vela/vela-qemu/out/install/x86_64-w64-mingw32/share
 
 gettext_dir=$datadir/glib-2.0/gettext
 
